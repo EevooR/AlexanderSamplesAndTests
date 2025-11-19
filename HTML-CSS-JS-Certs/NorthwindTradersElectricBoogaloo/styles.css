@@ -1,0 +1,62 @@
+/* Name: Enzo Alexander */
+/* Date: 3/26/2025 */
+/* Project: NorthwindTraders -- CSS */
+/* Filename: styles.css */
+/* Bishaaan */
+/* ------------------------------------------ */
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+
+}
+
+body {
+  /* background: #0e3cbd; */
+  background: #259fde;
+  font-family: 'Comic Sans MS', Wingdings, Futura, sans-serif;
+
+}
+
+nav, footer {
+  background: #848484;
+  padding: 10px 0;
+  /* padding: All */
+  /* padding: Vert Horiz */
+  text-align: center;
+}
+nav a {
+  padding: 5px;
+  text-decoration: none;
+  font-size: 1.2em;
+  color: #fff;
+}
+/* Pseudo Tags (actions On the Page) */
+/*
+Psuedo tag Orders
+ Link = Links Not visited yet
+ Visited = Links already clicked.
+ hover = when hovered over things change
+ Active = When Clicke and current page
+  */
+nav a:link {
+  background: red;
+}
+nav a:visited {
+  background: orange;
+}
+nav a:hover {
+  background: yellow;
+}
+nav a:active {
+  background: green;
+}
+
+
+
+
+
+
+article {
+  background: #65D9FF;
+}

@@ -1,0 +1,69 @@
+<!--
+  Try it yourself 1:
+    You have been asked to create a phone book for different people. You need to create a 3 column x 5 rows to store the phone numbers.
+    First name  Last name Phone numbers
+    John        Smith     937-555-1234
+    Albert      Jones     937-555-9101
+    Samantha    Skye      937-555-5678
+    Julie       Sims      937-555-0000
+
+  You will need to complete the following:
+    /Set up the HTML boiler plates (Try to use the Meta charset and Meta viewport)/
+    /Also make sure the title is Firstname and Lastname | Try it Yourself/
+    /Add the information to a table using the correct tags for the rows, heaadings, and data. (You can use semantic table tags (thead, tbody, tfoot) if needed.)/
+    Add the border around and throughout the table. Change the color of the background, change the color of the border, change the width of the border to 3 pixels. Add a background color, try to add a transparent background color for fun.
+    -->
+    <!DOCTYPE html>
+    <html lang="en" dir="ltr">
+      <head>
+        <meta charset="utf-8">
+        <meta name="veiwport" content="width=device-width=1, initial-scale=1">
+        <title>Enzo Alexander | Try It Yourself</title>
+          <style media="screen">
+            body {
+              background: linear-gradient(black, white);
+              background-size: cover;
+            }
+            table, th, td, tr{
+              border: solid;
+              border-width: 3px;
+              border-collapse: collapse;
+              background-color: #A500A535;
+              border-color: gold;
+            }
+          </style>
+      </head>
+      <body>
+        <table> <!--Table-->
+          <thead>
+            <tr> <!-- First name  Last name Phone numbers -->
+                <th>First name</th>
+                <th>Last name</th>
+                <th>Phone numbers</th>
+            </tr> <!--First name  Last name Phone numbers-->
+          </thead>
+          <tbody> <!--Data-->
+            <tr> <!-- Data Row 1 -->
+                <td>John</td>
+                <td>Smith</td>
+                <td>(937) 555-1234</td>
+            </tr> <!-- Data Row 1-->
+            <tr> <!-- Data Row 2 -->
+                <td>Albert</td>
+                <td>Jones</td>
+                <td>(937) 555-9101</td>
+            </tr> <!-- Data Row 2-->
+            <tr> <!-- Data Row 3 -->
+                <td>Samantha</td>
+                <td>Skye</td>
+                <td>(937) 555-5678</td>
+            </tr> <!-- Data Row 3-->
+            <tr> <!-- Data Row 4 -->
+                <td>Julie</td>
+                <td>Sims</td>
+                <td>(937) 555-0000</td>
+            </tr> <!-- Data Row 4-->
+          </tbody> <!--Data-->
+        </table> <!--Table-->
+      </body>
+    </html>

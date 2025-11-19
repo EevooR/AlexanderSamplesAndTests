@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Northwind Traders Contact | Alexander</title>
+    <meta name="viewport" content="width = device-width, initial-scale=1.0">
+    <meta name="description" content="Contact Form for Northwind Traders - Practicing Form Elements.">
+    <meta name="keywords" content="forms, form Elements, Northind Traders, Certiport">
+  </head>
+  <body>
+    <nav>
+      <a href = "Alexander_Index.html">Home</a>
+      <a href = "#About">About Us</a>
+      <a href = "#Orders">Order Supplies</a>
+      <a href = "contact.html">Contact Us</a>
+    </nav>
+
+    <main>
+      <!-- Form Elements:
+        Action: Where does the data Go?
+        Method: How does the data go?
+      -->
+      <form action="action.php" method="get">
+        <label for="fname">First Name:</label>
+        <input type="text" name="fname" id="fname">&nbsp;
+        <label for="lname">Last Name:</label>
+        <input type="text" name="lname" id="lname">&nbsp;<br>
+        <label for="userEmail">Email address:</label>&nbsp;
+        <input type="email" name="userEmail" id="userEmail" required>
+
+        <!-- radio -->
+
+        <p>Whar Issue are you experiencing?</p>
+        <label for="issue">Ordering</label>
+        <input type="radio" name="issue" id="ordering" value="ordering"><br>
+        <label for="issue">Delivery</label>
+        <input type="radio" name="issue" id="delivery" value="delivery"><br>
+        <label for="issue">Website issues</label>
+        <input type="radio" name="issue" id="website" value="website"><br>
+        <label for="issue">Customer Sevice</label>
+        <input type="radio" name="issue" id="customer" value="customer"><br>
+
+        <p>What type of Items are you ordering?</p>
+        <input type="checkbox" name="produce" value="produce" id="produce">
+        <label for="produce">Produce</label><br>
+        <input type="checkbox" name="meat" value="meat" id="meat">
+        <label for="meat">Meat</label><br>
+        <input type="checkbox" name="dairy" value="dairy" id="dairy">
+        <label for="dairy">Dairy</label><br>
+        <input type="checkbox" name="nonperishables" value="nonperishables" id="nonperishables">
+        <label for="nonperishables">Non-Perishables</label><br>
+
+        <label for="state">What State do you live in?</label>
+        <select name="state" id="statelist">
+          <option value="Alabama">Alabama</option>
+          <option value="Hawaii">Hawaii</option>
+          <option value="Tennessee">Tennessee</option>
+          <option value="Ohio">Ohio</option>
+        </select><br>
+
+        <label for="time">What State do you live in?</label>
+        <select name="time" id="timelist">
+          <option value="Morning">Morning</option>
+          <option value="Afternoon">Afternoon</option>
+          <option value="Evening">Evening</option>
+          <option value="Night">Night</option>
+        </select><br>
+
+        <label for="review">Review Northwind Traders:</label><br>
+        <textarea name="review" id="review" rows="6" cols="50"></textarea>
+        <br>
+        <input type="submit"> &nbsp; <input type="reset">
+      </form>
+    </main>
+
+    <footer>
+      Copyright &copy; Northwind Traders, 2025
+      <br>
+      <a href="mailto:northwindtraders@example.com">Email Questions</a>
+    </footer>
+  </body>
+</html>

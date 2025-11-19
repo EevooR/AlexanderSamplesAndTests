@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="author" content="Enzo Alexander">
+    <meta name="description" content="A Veteran Tribute for | Silas Johnson Jr.">
+    <meta name="keywords" content="Veteran, Tribute, HTML Piqua Ohio">
+    <meta name="veiwport" content="width:device-width, initial-scale = 1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Honoring our Veterans - Enzo Alexander</title>
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap" rel="stylesheet">
+    <style media="screen">
+      body {
+        font-family: 'Roboto', sans-serif;
+        background: #f4f6f8;
+        margin: 0;
+        color: #333;
+        text-align: center;
+      }
+      
+      a {
+        text-decoration: none;
+        color: inherit;
+      }
+      
+      header {
+        background: linear-gradient(135deg, #002868 0%, #BF0A30 100%);
+        color: #FFF;
+        padding: 50px 20px;
+        text-transform: uppercase;
+      }
+      
+      header h1 {
+        font-family: Merriweather, serif;
+        font-size: 2.5rem;
+        margin: 0;
+        font-weight:  700;
+        text-shadow: 1px 1px 5px rgba(0,0,0,0.3);
+      }
+      
+      header h2 {
+        margin-top: 10px;
+        font-weight: 400;
+      }
+      
+      #tribute-img {
+        height: 80%;
+        max-height: 450px;
+        border-radius: 12px;
+        border: 4px solid #002868;
+        box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+        margin: 25px 0;
+        transition: transform 0.3s ease;
+      }
+      #tribute-img:hover {
+        transform: scale(1.03);
+      }
+      
+      main {
+        width: 85%;
+        max-width: 800px;
+        margin: 0 auto 50px;
+        background: #fff;
+        padding: 30px;
+        border-radius: 12px;
+        box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+      }
+      
+      main h3 {
+        color: #002868;
+        margin-bottom: 5px;
+      }
+      
+      main p {
+        font-size: 1.1rem;
+        margin-bottom: 15px;
+      }
+      
+      #toggleHistory {
+        background: linear-gradient(135deg, #bf0a30, #002868);
+        color: #fff;
+        border: none;
+        border-radius: 25px;
+        padding: 10px 20px;
+        cursor: pointer;
+        font-size: 1rem;
+        margin-top: 10px;
+        transition: all 0.3s;
+      }
+      
+      #toggleHistory:hover {
+        transform: scale(1.05);
+      }
+      
+      #history {
+        max-height: 0;
+        overflow: hidden;
+        opacity: 0;
+        transition:all 0.6s ease;
+        transform: translateY(-10px);
+      }
+      #history.show {
+        max-height: 500px;
+        opacity: 1;
+        transform: rotateY(0);
+      }
+      
+      blockquote {
+        font-style: italic;
+        color: 444;
+        border-left: 4px solid #bf0a30;
+        margin: 20px auto;
+        max-width: 600px;
+      }
+      .back-btn {
+        display: inline-block;
+        margin-top: 25px;
+        background: linear-gradient(135deg, #bf0a30, #002868);
+        color: #fff;
+        padding: 10px 25px;
+        border-radius: 30px;
+        font-size: 1rem;
+        box-shadow: 0 3px 6px rgba(0, 0, 0, 0.3);
+        transition: all 0.3s;
+      }
+      .back-btn:hover {
+        transform: scale(1.05);
+      }
+      
+      footer {
+        background: #002868;
+        color: #fff;
+        padding: 20px 10px;
+        font-style: italic;
+      }
+    </style>
+  </head>
+  <body>
+
+    <header>
+      <h1>Honoring Our Veterans</h1>
+      <h2>Silas Johnson Jr. Tribute by Enzo Alexander</h2>
+    </header>
+    <img src="images/SilasJohnsonJr.png" alt="Photo of Silas Johnson Jr." id="tribute-img">
+
+    <main>
+      <h3>Name:</h3>
+      <p>Sailor Silas Johnson Jr.</p>
+
+      <h3>Years Served:</h3>
+      <p>1944-1945</p>
+
+      <h3>Branch of Military:</h3>
+      <p>The Navy</p>
+
+      <h3>Brief History:</h3>
+      <button type="button" id="toggleHistory">Show History</button>
+      <p id="history">Born in 1926, son of Silas Johnson Sr., he only turned of age to get involved in WWII during it's final years. Once he was old enough, he had Boot Camp ar the Great Lakes Navy Facility. He was placed on a supply ship, that was later sold as scrap metal, and held the rank of Sailor and was never promoted. On the Supply ship he got a tatoo of his initials on his left arm, and he also got a case of Yellow Jaundace. In 1945, he was honorably discharged, and later found his future wife.</p>
+
+
+      <h3>Thank-you Message</h3>
+      <p>Thank You, Silas Johnson Jr., If not for Veterans like you, vital supplies wouldn't have gotten to where they were needed. Your role was still vital to WWII. So, Thank you for being a Sailor on a Supply ship, we are trully greatful.</p>
+
+      <blockquote cite="https://www.history.navy.mil/browse-by-topic/heritage/famous-navy-quotations.html">
+        "The Navy has both a tradition and a future ─ and we look with pride and confidence in both directions." - Admiral George Anderson, CNO, 1 August 1961.
+      </blockquote>
+
+      <a href="veteransIndex.html" class="back-btn">Back to Gallery of Honor</a>
+
+    </main>
+
+    <footer>
+      <p>&copy;2025 | Basement Dwellers Gallery of Honor</p>
+      <p>Tribute page created by Enzo Alexander</p>
+    </footer>
+
+
+
+    <script type="text/javascript">
+    const toggleBtn = document.getElementById('toggleHistory');
+    const history = document.getElementById('history');
+
+    toggleBtn.addEventListener('click', () => {
+      history.classList.toggle('show');
+
+      if (history.classList.contains('show')) {
+        toggleBtn.textContent = "Hide History"
+      } else {
+        toggleBtn.textContent = "Show History"
+      }
+    });
+    </script>
+  </body>
+</html>

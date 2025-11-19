@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<!--
+  Name: Enzo Alexander
+  Project: Introducing Tables (Orginization / Page Layout)
+  File Name: TableIntro.
+  -->
+  <html lang="en" dir="ltr">
+    <head>
+      <!-- Metadata -->
+      <meta charset="utf-8">
+      <meta name="veiwport" content="width=device-width, initial-scale=1.0">
+      <title>Intro To Tables | Enzo Alexander</title>
+      <style media="screen">
+        table, tr, td, th {
+          border: 1px solid black;
+          border-collapse: collapse;
+        }
+        thead {
+          background: magenta;
+          font-family: 'Comic Sans MS';
+          font-size: 16pt;
+          color: aquamarine;
+        }
+        tbody {
+          background: cornflowerblue;
+          font-family: "Algerian";
+          font-size: 9pt;
+          color: gold;
+        }
+        tfoot {
+          background: lime;
+          font-family: "Papyrus Regular";
+          font-size: 16pt;
+          color: silver;
+        }
+        thead:hover {
+          background: Indigo;
+          font-family: 'Wingdings';
+          font-size: 16pt;
+          color: goldenrod;
+        }
+        tbody:hover {
+          background: Pink;
+          font-family: "Wingdings";
+          font-size: 9pt;
+          color: teal;
+        }
+        tfoot:hover {
+          background: turquoise;
+          font-family: "Wingdings";
+          font-size: 16pt;
+          color: lavender;
+        }
+        th {
+          background: Aqua;
+          font-family: 'Times';
+          font-size: 16pt;
+          color: Violet;
+        }
+        th:hover {
+          background: green;
+          font-family: 'Wingdings';
+          font-size: 16pt;
+          color: powderblue;
+        }
+      </style>
+    </head>
+    <body>
+      <h1>What Are tables?</h1>
+        <p>Tables were the only wat to orginize and display data, we didn't have div tags, TABLES SUCK! when we make a table to store data, we have to create the table row by row, cell by cell.</p>
+
+        <h2>Tags used for Tables:</h2>
+          <dl>
+            <dt>&lttable&gt:</dt>
+              <dd>Table Open and closing tags are used to tell HTML Browsers that we are building and placing a table in this location.</dd>
+            <dt>&lttr&gt: Table Row</dt>
+              <dd>Creates The Indivisual Rows in a table.</dd>
+            <dt>&lttd&gt: td: Table Data</dt>
+              <dd>Create the indivisual cell within the rows we created, ans allows us to place text oe images within the tags.</dd>
+            <dt>&ltth&gt: Table Heading</dt>
+              <dd>The &ltth&gt that is used for table headers where it is automatically formated with bold text. replaces the &lttd&gt tag.</dd>
+            <dt>&ltthead&gt: Table Head</dt>
+              <dd>The Table Head is the section that you typically place table header information and tags.</dd>
+            <dt>&lttbody&gt: Table Body</dt>
+              <dd>the main section of the table and hods the information</dd>
+            <dt>&lttfoot&gt</dt>
+              <dd>The bottom of the table. Example is our total row.</dd>
+            <dt>&ltrowspan&gt</dt>
+              <dd>This Attribute is treated like merging cells merging/spanning over rows.</dd>
+            <dt>&ltcolspan&gt</dt>
+              <dd>This Attribute is treated like merging cells merging/spanning over colomns.</dd>
+          </dl>
+      <hr>
+      <h3>Table Practice : Savings Table</h3>
+        <table> <!--AEAEAEAEAEAEAEAEAEAEAEAEAEAEAEAEAEAEAEAEAEAEAEAE-->
+          <thead>
+            <tr> <!--Row 1-->
+              <th> <!--Col 1-->
+                Month
+              </th> <!--Col 1-->
+              <th> <!--Col 2-->
+                Savings
+              </th> <!--Col 2-->
+            </tr> <!--Row 1-->
+          </thead>
+            <!-- AEAEAEAEAEAEAEAEAEAEAEAEAEAEAEAEAEAEAEAEAEAEAEAEAEAEAEAEAEAEAEAEAEAEAEAEAEAEAEAEAEAEAEAEAEAEAEAEAEAEAEAE -->
+          <tbody>
+            <tr> <!--Row 2-->
+              <td> <!--Col 1-->
+                <b>January</b>
+              </td> <!--Col 1-->
+              <td> <!--Col 2-->
+                <b>$150</b>
+              </td> <!--Col 2-->
+            </tr> <!--Row 2-->
+            <!-- AEAEAEAEAEAEAEAEAEAEAEAEAEAEAEAEAEAEAEAEAEAEAEAEAEAEAEAEAEAEAEAEAEAEAEAEAEAEAEAEAEAEAEAEAEAEAEAEAEAEAEAE -->
+            <tr> <!--Row 3-->
+              <td> <!--Col 1-->
+                <b>February</b>
+              </td> <!--Col 1-->
+              <td> <!--Col 2-->
+                <b>$200</b>
+              </td> <!--Col 2-->
+            </tr> <!--Row 3-->
+          </tbody>
+            <!-- AEAEAEAEAEAEAEAEAEAEAEAEAEAEAEAEAEAEAEAEAEAEAEAEAEAEAEAEAEAEAEAEAEAEAEAEAEAEAEAEAEAEAEAEAEAEAEAEAEAEAEAE -->
+          <tfoot>
+            <tr> <!--Row 4-->
+              <td> <!--Col 1-->
+                <b>Total</b>
+              </td> <!--Col 1-->
+              <td> <!--Col 2-->
+                <b>$350</b>
+              </td> <!--Col 2-->
+            </tr> <!--Row 4-->
+          </tfoot>
+        </table> <!--AEAEAEAEAEAEAEAEAEAEAEAEAEAEAEAEAEAEAEAEAEAEAEAEAEAEAEAEAEAEAEAEAEAEAEAEAEAEAEAEAEAEAEAEAEAEAEAEAEAEAEAE-->
+      <hr>
+      <h2>Meal plans for the Days:</h2>
+        <table>
+          <thead>
+            <tr>
+              <th colspan="3">Meal Planning for the week</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th rowspan="3">monday</th>
+              <td>Breakfast</td>
+              <td>1 Cup greek yougurt, 1/2 cup berries, and 1/4 Cup Granola</td>
+            </tr>
+            <tr>
+              <td>Lunch</td>
+              <td>Chicken Wrap, Side Salad, and Apple</td>
+            </tr>
+            <tr>
+              <td>Dinner</td>
+              <td>steamed rice with Beef and Broccoli</td>
+            </tr>
+          </tbody>
+        </table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </body>
+  </html>
