@@ -1,0 +1,22 @@
+@font-face {
+  font-family: "Oxanium";
+  src: url("Oxanium-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+body {
+  background: indigo;
+  color: lightblue;
+  font-family: Oxanium, sans-serif;
+}
+nav {
+  background: hsl(275 100% 20%);
+}
+nav a {
+  background: crimson;
+  color: black;
+}
+
+h1, h2, h3, h4, h5 {
+  color: lightblue;
+}
