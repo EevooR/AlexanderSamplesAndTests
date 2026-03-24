@@ -1,0 +1,57 @@
+body {
+  background: hotpink;
+}
+
+
+
+main {
+  display: flex;
+  margin: 3em;
+  margin-top: 5em;
+}
+
+
+#SideBar {
+  width: 30vw;
+  margin-right: 3vw;
+
+}
+#SideBar img {
+  width: 40%;
+}
+
+table {
+  width: 100%;
+}
+td{
+  height: 3em;
+}
+span img {
+  max-width: 50px;
+  height: 50px;
+}
+
+
+.aboutimg {
+  margin: 0;
+  width:100px;
+  height:100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+.aboutimg img {
+  width: 100%;
+  height: 100%;
+}
+
+#AboutMe {
+  display: flex;
+}
+
+
+.ReadMore {
+  height: 0px;
+  overflow: hidden;
+}
