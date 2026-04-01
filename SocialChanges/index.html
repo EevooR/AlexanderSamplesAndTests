@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="author" content="Enzo Alexander">
+    <meta name="description" content="An interactive cookbook">
+    <meta name="keywords" content="cooking, food, JavaScript project, HTML Project, CSS Project, interactive">
+    <meta name="veiwport" content="width:device-width, initial-scale = 1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>HTML Interactive Cookbook</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="shortcut icon" href="https://shop.jazwares.com/cdn/shop/files/Pancakes_Pattie.png?v=1706035401&width=600">
+  </head>
+  <body>
+    <header>
+      <h1>Agents of Socialization</h1>
+      <h2>Sociology Project</h2>
+      <h3>By Enzo Alexander</h3>
+    </header>
+
+    <main>
+      <section id="recipie-select">
+        <div class="recipie-option" id="flappyprototype">
+          <h1>Flappy Prototype</h1>
+        </div>
+        <div class="recipie-option" onclick="display('frenchtoast')" onfocus="display('frenchtoast')" id="frenchtoast" tabindex="0">
+          <h1 onclick="display('frenchtoast')">Mark Alexander</h1>
+        </div>
+        <div class="recipie-option" onclick="display('pancakes')" onfocus="display('pancakes')" id="pancakes" tabindex="1">
+          <h1 onclick="display('pancakes')">Alexis Mertzke</h1>
+        </div>
+        <div class="recipie-option" onclick="display('tomatosoup')" onfocus="display('tomatosoup')" id="tomatosoup" tabindex="2">
+          <h1 onclick="display('tomatosoup')">Teen Anime & Manga Club</h1>
+        </div>
+        <div class="recipie-option" onclick="display('grilledcheese')" onfocus="display('grilledcheese')" id="grilledcheese" tabindex="3">
+          <h1 onclick="display('grilledcheese')">Braxton Penrod</h1>
+        </div>
+        <div class="recipie-option" onclick="display('picodegallo')" onfocus="display('picodegallo')" id="picodegallo" tabindex="4">
+          <h1 onclick="display('picodegallo')">CIT Lab</h1>
+        </div>
+        <div class="recipie-option" onclick="display('guacamole')" onfocus="display('guacamole')" id="guacamole" tabindex="5">
+          <h1 onclick="display('guacamole')">Music</h1>
+        </div>
+        <div class="recipie-option" onclick="display('breakfastburrito')" onfocus="display('breakfastburrito')" id="breakfastburrito" tabindex="6">
+          <h1 onclick="display('breakfastburrito')">Secular Focus</h1>
+        </div>
+        <div class="recipie-option" onclick="display('pizzasauce')" onfocus="display('pizzasauce')" id="pizzasauce" tabindex="7">
+          <h1 onclick="display('pizzasauce')">Video Games</h1>
+        </div>
+        <div class="recipie-option" onclick="display('sevenlayerbeandip')" onfocus="display('sevenlayerbeandip')" id="sevenlayerbeandip" tabindex="8">
+          <h1 onclick="display('sevenlayerbeandip')">HoYoLab</h1>
+        </div>
+        <div class="recipie-option" onclick="display('buffalochickenwingdip')" onfocus="display('buffalochickenwingdip')" id="buffalochickenwingdip" tabindex="9">
+          <h1 onclick="display('buffalochickenwingdip')">Trip to Ypsilanti</h1>
+        </div>
+      </section>
+      <section id="recipie">
+        <div class="indRec" id="flappyprototypeRec">
+          <h2>Welcome!</h2>
+          <h3>Instructions:</h3>
+          <iframe src="assets/AgentsofSocializationProject.pdf" width="100%" height="360em" style="border: none; border-radius:10px;"></iframe>
+        </div>
+        <div class="indRec hidden" id="frenchtoastRec">
+          <h2>Mark Alexander</h2>
+          <h3>Family</h3>
+          <p>Being the little brother in the family meant one big thing, I wanted to be just like my big brother. If he didn't do homework, I didn't do it, that caused problems later on and he wasn't the best role model, and I needed to be forced away from the mindset of being a duplicate of him to actually be my own person. I still do like some of the things he does, and I do feel like I'm subconsciously trying to copy him (which is 20% of the reason why I want to go away for college).</p>
+          <h3>Addendum</h3>
+          <h4>Select positive influences</h4>
+          <ol>
+            <li>I still enjoy writing, even if it has deviated.</li>
+            <li>I am attending the UVCC because he did.</li>
+            <li>I enjoy Death Battle and thinking of Death Battles with him.</li>
+            <li>I wouldn't have done D&D, E-Sports, and Marching Band if it weren't for him.</li>
+            <li>I probably wouldn't enjoy Pokemon if it weren't for him.</li>
+          </ol>
+          <h4>Select negative influences</h4>
+          <ol>
+            <li>Work came easily to him in school, so I never saw him do any.</li>
+            <li>He stresses his head off and I generally started mimicing him.</li>
+            <li>Him wanting to take a gap year almost made me want to take one.</li>
+          </ol>
+        </div>
+        <div class="indRec hidden" id="pancakesRec">
+          <h2>Alexis Mertzke</h2>
+          <h3>Peers</h3>
+          <p>I would say Alexis Mertzke is my first good friend, while I had the people I perceived as friends, but were not good at the task, or my former best friend, who we just kind of drifted away. Alexis and I resonated as friends for no good reason, other than being put together on a project because she couldn't chew gum. I felt comfortable enough to confide in her about things like my struggle with my sexuality and stress. And though we don't contact each other very often anymore, I still consider her a good friend.</p>
+        </div>
+        <div class="indRec hidden" id="tomatosoupRec">
+          <h2>Teen Anime & Manga Club</h2>
+          <h3>Peers</h3>
+          <p>The Group of friends that I've made over the golden age of the Piqua Public Library's Teen Anime & Manga Club of wildly different peoples is the reason I'm so willing to put myself out there and try to make friends and participate more vocally in the clubs that I am in. It also gave me a network of peers who are willing and wanting to talk to me about the most random of things.</p>
+        </div>
+        <div class="indRec hidden" id="grilledcheeseRec">
+          <h2>Braxton Penrod</h2>
+          <h3>Peers</h3>
+          <p>He was my friend in middle school, and he seemed like a really nice guy in those grades; however, as a middle-schooler, I was a terrible judge of character. He did things that impacted my grades, causing me to get in trouble for being distracted during a group project, among being a generally bad group member on other group projects. He also did things that inherently made me uncomfortable, telling other people secrets or overall falsehoods to get me in trouble with teachers, and pushing to try to be my friend despite the fact that he's aware that he crossed my boundaries too many times. He taught me what I don't want in a peer, and to enforce my boundaries strictly.</p>
+        </div>
+        <div class="indRec hidden" id="picodegalloRec">
+          <h2>CIT Lab</h2>
+          <h3>School</h3>
+          <p>The CIT lab here at the UVCC taught me a lot about myself among other things. It gave me a community of people I knew I could talk to, whilst also teaching me boundaries. It is also the biggest reason I want to go to college, seeing the websites I coded in deployment makes me so happy, and I believe that web design is my passion. </p>
+        </div>
+        <div class="indRec hidden" id="guacamoleRec">
+          <h2>Music</h2>
+          <h3>Media</h3>
+          <p>Like a Star Trek fan inserting Star Trek into whatever they talk about, I learned a lot of phrasings both consciously and unconsciously from the music I listen to (E.G. "All but ..."). I also have music as, partly a way to ground myself, from distraction, though the music can distract me as well as it can ground me.</p>
+        </div>
+        <div class="indRec hidden" id="breakfastburritoRec">
+          <h2>Secular Focus</h2>
+          <h3>Religion</h3>
+          <p>I'll prelude this with the fact that I do have a religion, and I tend to have a soft aggression to certain things outside of mine, but it's like when someone's telling you something you don't want to hear and you cover your ears saying "lalalalala", except I just sit there quietly blocking it out. Whenever I say something religious, it's usually exaggeration or of the sorts, I don't let my religion affect my actions, I just have it as the rock that I can always use if needed, but just sits off to the side. I feel like not letting it control me has helped me just be myself rather than a model of what an unknown deity wanted their kin to look like.</p>
+        </div>
+        <div class="indRec hidden" id="pizzasauceRec">
+          <h2>Video Games</h2>
+          <h3>Media</h3>
+          <p>Having the access and playing the video games I've played has granted me access to so many conversational topics and writing concepts that I wouldn't have had otherwise, and thinking about them grants me a minute of respite in the swiftly growing pressure of the world. It also gives me more things I can continue to stem my personality from, as a sponge. It can also help me calm down when necessary. I also enjoy the influence on my life and how being in the Piqua Super Smash Brothers Ultimate team allowed me to be more comfortable with talking about random topics casually. </p>
+        </div>
+
+        <div class="indRec hidden" id="sevenlayerbeandipRec">
+          <h2>HoYoLab</h2>
+          <h3>Media</h3>
+          <p>The official Genshin Impact Social Media, among other things, it's similar in function to social medias like Amino (2020s) in that people aren't that afraid to say things about fictional characters that may make people uncomfortable. But it has helped me be more comfortable being myself, because if a random person on the internet is able to say something that bold on the internet, I can be a little bit more honest with the people around me.</p>
+        </div>
+        <div class="indRec hidden" id="buffalochickenwingdipRec">
+          <h2>Trip to Ypsilanti</h2>
+          <h3>Family</h3>
+          <p>Though my memory always stands as being foggy, especially back before 2020, there was a trip to Michigan that my family and I took that I have ~2 trinkets still of, and I still think is impacting me to this day, and that's when they took me to Hell and Ypsilanti, MI, Where they went to college. I still fondly have positive connotations to the thought of the trip, I do believe that that trip is a strong part of why I want to go to Eastern Michigan.</p>
+        </div>
+      </section>
+      <section id="image-container">
+        <figure>
+          <img src="assets/enzoSP.jpg" alt="PLACEHOLDER" id="recImage">
+          <figcaption id="recImageCap">Me!</figcaption>
+        </figure>
+      </section>
+    </main>
+
+
+    <footer></footer>
+
+
+    <script type="text/javascript" src="js/script.js">
+
+    </script>
+  </body>
+</html>
